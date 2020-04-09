@@ -1,0 +1,182 @@
+@font-face{
+    font-family:'VazirLight';
+    src:url("../fonts/vazir/Vazir-Light-FD.eot");
+    src:url("../fonts/vazir/Vazir-Light-FD.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/vazir/Vazir-Light-FD.woff") format("woff"),
+    url("../fonts/vazir/Vazir-Light-FD.ttf") format("ttf"),
+    url("../fonts/vazir/Vazir-Light-FD.svg") format("svg")}
+@font-face{
+    font-family:'VazirBold';
+    src:url("../fonts/vazir/Vazir-Bold-FD.eot");
+    src:url("../fonts/vazir/Vazir-Bold-FD.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/vazir/Vazir-Bold-FD.woff") format("woff"),
+    url("../fonts/vazir/Vazir-Bold-FD.ttf") format("ttf"),
+    url("../fonts/vazir/Vazir-Bold-FD.svg") format("svg")}
+@font-face{
+    font-family:'VazirThin';
+    src:url("../fonts/vazir/Vazir-Thin-FD.eot");
+    src:url("../fonts/vazir/Vazir-Thin-FD.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/vazir/Vazir-Thin-FD.woff") format("woff"),
+    url("../fonts/vazir/Vazir-Thin-FD.ttf") format("ttf"),
+    url("../fonts/vazir/Vazir-Thin-FD.svg") format("svg")}
+html , body {
+    overflow: hidden;
+    height: 100%;
+}
+body {
+    direction: rtl !important;
+    text-align: right;
+    font-family: VazirLight;
+}
+.title {
+    position: relative;
+    font-family: VazirBold;
+    padding-right: 100px;
+    color: #F95A37;
+    border-bottom: 1px solid #e2e2e2;
+}
+.title h1 {
+    font-size: 16px !important;
+}
+.eng {
+    font-family: VazirThin;
+    color: rgb(209, 209, 209) ;
+    font-weight: 100;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-align: right;
+}
+.back {
+    position: absolute;
+    left: 0 !important;
+    top: 10px;
+}
+.back button {
+    color: #FFBE86 ;
+    font-size: 13px;
+}
+ul {
+    padding-right: 0;
+    margin-bottom: 0;
+}
+.nav-link {
+    font-size: 13px;
+}
+.sidebar {
+    padding-top: 20px;
+    height: 94vh;
+    overflow-y: scroll;
+}
+.mainScreen {
+    height: 94vh;
+    overflow-y: scroll;
+}
+.tree {
+    padding-right: 20px;
+    display: none;
+}
+.textPartOne {
+    line-height: 1.7;
+}
+.ulText {
+    padding-right: 30px;
+}
+h2 {
+    color: #F95A37;
+    font-family: VazirBold;
+    font-size: 18px;
+    margin-top: 120px;
+}
+.qute{
+    padding: 10px 20px;
+}
+
+.blockquote-wrapper {
+    display: flex;
+    padding: 0 20px;
+ }
+ 
+ /* Blockquote main style */
+ .blockquote {
+     position: relative;
+     font-family: 'Barlow Condensed', sans-serif;
+     max-width: 620px;
+     margin: 80px auto;
+     align-self: center;
+ }
+ 
+ /* Blockquote header */
+ .blockquote h1 {
+     font-family: VazirLight;
+     position: relative; /* for pseudos */
+     color: #e74848;
+     font-size: 13px;
+     font-weight: normal;
+     line-height: 1;
+     margin: 0;
+     border: 2px solid #fff;
+     border: solid 2px;
+     border-radius:20px;
+     padding: 25px;
+ }
+ 
+ /* Blockquote right double quotes */
+ .blockquote h1:after {
+     content:"";
+     position: absolute;
+     border: 2px solid #e74848;
+     border-radius: 0 50px 0 0;
+     width: 60px;
+     height: 60px;
+     bottom: -60px;
+     left: 50px;
+     border-bottom: none;
+     border-left: none;
+     z-index: 3; 
+ }
+ 
+ .blockquote h1:before {
+     content:"";
+     position: absolute;
+     width: 80px;
+     border: 6px solid #fff;
+     bottom: -3px;
+     left: 50px;
+     z-index: 2;
+ }
+ 
+ /* increase header size after 600px */
+ @media all and (min-width: 600px) {
+     .blockquote h1 {
+         font-size: 16px;
+         line-height: 1.2;
+    }
+ 
+ }
+ 
+ /* Blockquote subheader */
+ .blockquote h4 {
+     position: relative;
+     text-align: left;
+     color: #444444;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 1.2;
+     margin: 0;
+     padding-top: 30px;
+     z-index: 1;
+     margin-left:120px;
+     padding-left:12px;
+ }
+ 
+  
+ .blockquote h4:first-letter {
+   margin-left:20px;
+ }
+ .imgFeyman {
+     height: 60px;
+     float: left;
+     margin-right: 20px;
+     position: relative;
+     top: -20px;
+ }
