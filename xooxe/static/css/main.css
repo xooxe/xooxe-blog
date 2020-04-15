@@ -113,6 +113,9 @@ body {
     display: inline-block !important;
     margin-left: 6px;
 }
+.links li.active .nav-link {
+    background-color: #1a77d4d9;
+}
 
 /* categury */
 .content {
@@ -608,4 +611,30 @@ footer {
     font-family: VazirThin;
     font-size: 14px;
     color: #ffffff;
+}
+
+/* form styles */
+.form-group label {
+    font-size: 13px !important;
+}
+.form-group input {
+    font-size: 13px;
+}
+form button , form textarea{
+    font-size: 13px !important;
+}
+
+/* change rtl input style */
+.input-group-sm>.input-group-prepend>.input-group-text {
+    border-top-right-radius: .2rem !important;
+    border-bottom-right-radius: .2rem !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.input-group-sm>.form-control {
+    border-top-left-radius: .2rem !important;
+    border-bottom-left-radius: .2rem !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
 }

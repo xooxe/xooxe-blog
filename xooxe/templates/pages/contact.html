@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 align-self-center">
+                <div class="bg-light my-5 mx-3 px-4 py-4 rounded">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                            <input type="firstName" class="form-control" id="inputFirstName" placeholder="نام">
+                            </div>
+                            <div class="form-group col-md-6">
+                            <input type="lastName" class="form-control" id="inputLastName" placeholder="نام خانوادگی">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="ایمیل">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="inputTextArea" rows="5" placeholder="پیام شما ..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">ارسال</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
